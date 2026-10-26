@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-flask-app
+  description: A python application displaying time and hostname info, named python-flask-app
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: JonesKwameOsei/python-flask-app
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
